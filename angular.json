@@ -6,10 +6,24 @@
     "analytics": "63c8dc58-93ea-404e-822d-5856adfffb94"
   },
   "newProjectRoot": "projects",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
   "projects": {
     "client": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "type": "component",
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "type": "service",
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
