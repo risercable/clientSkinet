@@ -23,4 +23,5 @@ import {TruncateTextPipe} from '../../../truncate-text-pipe';
 })
 export class ProductItemComponent {
   @Input() product?: Product;
+  exchangeRate = 56.5;
 }
