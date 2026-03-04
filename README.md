@@ -1,59 +1,21 @@
-# Client
+# Angular 21 Project | Frontend part of - [RisSkiShop](https://github.com/risercable/rise-ski-2025/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
+## A "work-in-progress" Catalog Shop written in Angular 21 which is the Front-end Part of the RisSki Project
 
-## Development server
+## Resources
+- [![Udemy](https://img.shields.io/badge/Udemy-Course-EC5252?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-net-core-and-angular/)
 
-To start a local development server, run:
+## How to view / test this example
+Before you begin, ensure you have the following installed:
 
-```bash
-ng serve
-```
+- [Node](https://nodejs.org/en/download) 
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Steps
+1. Clone this project
+2. Make sure you have node installed in system :) (tested on v25.6.1)
+3. on the root folder, run "npm install" to install it's dependencies
+4. Run "ng serve once done" - for better viewing Refer to my connected project https://github.com/risercable/rise-ski-2025/
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Troubleshoot if needed
+- Try installing mkcert on your system if got any issues particularly with cors related ones
+  - [MkCert Github Link](https://github.com/FiloSottile/mkcert)
