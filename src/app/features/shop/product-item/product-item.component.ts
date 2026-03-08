@@ -5,6 +5,7 @@ import {CurrencyPipe} from '@angular/common';
 import {MatButton} from '@angular/material/button';
 import {MatIcon} from '@angular/material/icon';
 import {TruncateTextPipe} from '../../../truncate-text-pipe';
+import {RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-product-item',
@@ -16,7 +17,8 @@ import {TruncateTextPipe} from '../../../truncate-text-pipe';
     MatCardActions,
     MatButton,
     MatIcon,
-    TruncateTextPipe
+    TruncateTextPipe,
+    RouterLink
   ],
   templateUrl: './product-item.component.html',
   styleUrl: './product-item.component.scss',
