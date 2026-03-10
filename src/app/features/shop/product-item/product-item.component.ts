@@ -5,7 +5,7 @@ import {CurrencyPipe} from '@angular/common';
 import {MatButton} from '@angular/material/button';
 import {MatIcon} from '@angular/material/icon';
 import {TruncateTextPipe} from '../../../truncate-text-pipe';
-import {RouterLink, RouterLinkActive} from '@angular/router';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-product-item',
@@ -25,5 +25,5 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
 })
 export class ProductItemComponent {
   @Input() product?: Product;
-  exchangeRate = 56.5;
+  exchangeRate = 56.5 * 0.75;
 }
