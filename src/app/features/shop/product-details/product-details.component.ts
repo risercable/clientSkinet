@@ -28,7 +28,7 @@ export class ProductDetailsComponent implements OnInit {
   private activatedRoute = inject(ActivatedRoute);
 
   product = signal<Product | undefined>(undefined);
-  exchangeRate = 56.5 * 0.75;
+  exchangeRate = 56.5 + (40 * 0.12);
 
   ngOnInit(): void {
     this.initProduct();

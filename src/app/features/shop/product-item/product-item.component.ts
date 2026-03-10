@@ -25,5 +25,5 @@ import {RouterLink} from '@angular/router';
 })
 export class ProductItemComponent {
   @Input() product?: Product;
-  exchangeRate = 56.5 * 0.75;
+  exchangeRate = 56.5 + (40 * 0.12);
 }
